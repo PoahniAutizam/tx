@@ -1,0 +1,21 @@
+####################################################################################################
+#####                              TX Ultimate Easy for ESPHome                                #####
+#####                  Repository: https://github.com/edwardtfn/TX-Ultimate-Easy               #####
+####################################################################################################
+##### Purpose: ESPHome Core                                                                    #####
+####################################################################################################
+##### Author: edwardtfn - https://github.com/edwardtfn - https://buymeacoffee.com/edwardfirmo  #####
+####################################################################################################
+##### NOTE:                                                                                    #####
+##### - Make changes ONLY if absolutely necessary and you have the required knowledge.         #####
+##### - For normal system use, modifications to this file are NOT required.                    #####
+####################################################################################################
+---
+packages:
+  # yamllint disable rule:colons
+  core_common:     !include TX-Ultimate-Easy-ESPHome_core_common.yaml
+  core_hw_buttons: !include TX-Ultimate-Easy-ESPHome_core_hw_buttons.yaml
+  core_hw_leds:    !include TX-Ultimate-Easy-ESPHome_core_hw_leds.yaml
+  core_hw_touch:   !include TX-Ultimate-Easy-ESPHome_core_hw_touch.yaml
+  # yamllint enable rule:colons
+...
